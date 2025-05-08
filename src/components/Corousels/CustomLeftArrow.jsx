@@ -6,7 +6,7 @@ const CustomLeftArrow = ({ onClick }) => {
     <button
       onClick={onClick}
       aria-label="Previous slide"
-      className="absolute left-[-10px] top-1/2 transform -translate-y-1/2 bg-black text-white px-2 py-2 rounded-full z-10"
+      className="absolute left-1 top-1/2 transform -translate-y-1/2 bg-black text-white px-2 py-2 rounded-full z-10"
     >
       <FaArrowLeft />
     </button>

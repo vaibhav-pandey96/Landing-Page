@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
         } = rest;
         return  <button
         onClick={onClick}
-        className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-black text-white px-2 py-2 rounded-full z-10"
+        className="absolute right-12 top-1/2 transform -translate-y-1/2 bg-black text-white px-2 py-2 rounded-full z-10"
       >
         <FaArrowRight />
       </button>
